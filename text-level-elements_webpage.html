@@ -1,0 +1,164 @@
+<!DOCTYPE html>     <!-- HTML5 version     -->
+<html lang="en">    <!-- ISO language code -->
+
+<head>
+
+    <!--
+    
+        Start Date:     2020-Sep-14
+
+        Revision:       2020-Oct-16
+    
+        Project:        Text-level elements.
+                        Embedded style sheets with 2 style rules.
+
+        Professor:      Dr. William M. Pegram
+        
+        Author:         Andras Erdelyi
+        
+    -->
+
+    <!-- Character Encoding Declaration -->
+    <!-- UNICODE CHARACTER SET. Also save your content as UTF-8 -->
+    <meta charset="UTF-8"/>  
+
+    <meta name="viewport"    content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Text-level elements"/>
+    <meta name="keywords"    content="text-level elements, text level elements, text level"/>    
+
+    <link  href="" rel="stylesheet"/>    <!-- href="name_of_CSS_file.css" -->
+
+    <style>
+        
+        body { 
+            background-color: burlywood;
+        }
+        
+        strong {
+            background-color: white;
+        }
+
+    </style>
+ 
+    <title>Text-level elements</title>
+
+</head>
+
+<body>
+    <h1>Text-Level Elements</h1>
+    <p>
+        Within each <strong>grouping element</strong> are <strong>text-level elements</strong>, 
+        which mark phrases or characters within a paragraph. 
+        Unlike <strong>sectioning</strong> or <strong>grouping elements</strong> that mark a self-contained block of content,
+        <strong>text-level elements</strong> appear <mark>in line</mark> with the surrounding content and are known as 
+        <mark>inline</mark> elements.
+        For example, the italicized or boldface text in this paragraph is considered 
+        inline content because it appears alongside the surrounding text. 
+        Figure 1–16 describes some of the many text-level elements in HTML. 
+    </p>
+
+    <pre>
+        Text-Level Elements are Inline Elements !
+        Text-Level Elements are in-text formatting tags !
+    </pre>
+    
+    <p>
+        While most HTML tags are used to create elements, 
+        HTML also provides <mark>in-text</mark> formatting tags
+        to apply specific <mark>text-related styles</mark> to portions of text. 
+        Examples of HTML text formatting such as:
+        highlighting,
+        bolding, 
+        italic,
+        underlining, 
+        abbreviation,
+        stricken text.
+    </p>
+
+    <mark>Highlighting !</mark>
+    
+    <br>
+    
+    <!--
+        What’s the difference? Semantics. 
+        <strong> is used to indicate that the text is fundamentally or semantically
+        important to the surrounding text, 
+        while <b> indicates no such importance and simply represents text that should
+        be bolded.
+    -->
+
+    <strong>Bold Text Here</strong>
+
+    <br>
+
+    <b>Bold Text Here</b>
+    
+    <br>
+
+    <em>Italicized Text Here</em>
+
+    <i>Italicized Text Here</i>
+
+    <p>This paragraph contains great <u>content</u> text.</p>
+
+    <p>I like to write <abbr title="Hypertext Markup Language">HTML</abbr> !</p>
+  
+    <s>Struck-through text here</s>
+
+    <a href="https://www.google.com"> Go to Google! </a>
+    
+    
+    <h2><mark>Element</mark> Description</h2>
+
+    <p>
+
+        <mark>a</mark>	    Marks content that acts as a hypertext link <br><br>
+        <mark>abbr</mark>	Marks an abbreviation or acronym            <br><br>
+        <mark>b</mark>		Indicates a span of text to which attention should be drawn (text usually appears in bold)  <br><br>
+        <mark>br</mark>		Represents a line break within the grouping element <br><br>
+        <mark>cite</mark>   Marks a citation to a title or author of a creative work (text usually appears in italics).   
+							Is a reference to a source. More precisely, a citation is an abbreviated alphanumeric expression<br><br>
+        <mark>code</mark>		Marks content that represents computer code (text usually appears in a monospace font)  <br><br>
+        <mark>data</mark>		Associates a data value with the marked text with the value attribute providing the value   <br><br>
+        <mark>dfn</mark>		Marks a defined term for which a definition is given elsewhere in the document              <br><br>  
+        <mark>em</mark>		Indicates content that is emphasized or stressed (text usually appears in italics)              <br><br>
+        <mark>i</mark>		Indicates a span of text that expresses an alternate voice or mood (text usually appears in italics)    <br><br>
+        <mark>kbd</mark>		Marks text that represents user input, typically from a computer keyboard or a voice command        <br><br>
+        <mark>mark	</mark>	Marks content that is highlighted for reference purposes    <br><br>
+        <mark>q</mark>		Marks content that is quoted from another source            <br><br>
+        <mark>s</mark>		Marks content that is no longer accurate or relevant (text is usually struck through)   <br><br>
+        <mark>samp</mark>		Marks text that represents the sample output from a computer program or application <br><br>
+        <mark>small</mark>		Marks side comments (text usually in small print)       <br><br>
+        <mark>span	</mark>	Contains a generic run of text within the document          <br><br>
+        <mark>strong</mark>		Indicates content of strong importance or seriousness (text usually appears in bold)    <br><br>
+        <mark>sub</mark>	Marks text that should be treated as a text subscript       <br><br>
+        <mark>sup</mark>		Marks text that should be treated as a text superscript <br><br>
+        <mark>time	</mark>	Marks a time value or text string                           <br><br>
+        <mark>u</mark>		Indicates text that appears stylistically different from normal text (text usually appears underlined)  <br><br>
+        <mark>var</mark>		Marks text that is treated as a variable in a mathematical expression or computer program           <br><br>
+        <mark>wbr</mark>		Represents where a line break should occur, if needed, for a long text string                       <br><br>
+    </p>
+
+    <h3>
+        <q> It needs to be emphasized again that all of these stylistic choices 
+            are not determined by the markup tags !                   <br>
+            <em>they are default styles used by the browser ! </em>   <br>
+            Different browsers and different devices might render these page elements differently.  <br> 
+            To exert more control over your page’s appearance, you can apply a style sheet to the document.
+        </q>
+
+        <br><br>
+        
+        <cite>New Perspectives on HTML 5 and CSS Comprehensive by Patrick Carey</cite>
+    </h3>
+
+    <pre>
+    </pre>
+
+</body>
+
+</html>
+
+
+
+
