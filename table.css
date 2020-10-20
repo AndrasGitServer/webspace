@@ -1,0 +1,57 @@
+* {                 /* Reset */
+    margin: 0;
+    padding: 0;
+}
+
+h1 , .ubuntu{
+    color: red;
+    background-color: peachpuff;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.pt {
+    font-family: 'PT Mono', monospace;
+    color: red;
+    background-color: peachpuff;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+table {
+    font-family: 'PT Mono', monospace;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1.5em;
+    color: white;
+    background-color: gray;
+    margin: auto;
+    width: 70%;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    word-spacing: 0.5em;
+}
+
+td , th{
+    padding: 5px;
+    width: 10px;
+    border-style: solid;   
+}
+
+tr:hover {                      /* state */
+    background-color: black;
+}
+
+
+
+
+
